@@ -3,6 +3,8 @@ on: workflow_dispatch
 jobs:
   run-it:
     runs-on: ubuntu-latest
+    env:
+      NAME: Artur
     steps:
     - uses: actions/checkout@v4
     - name: Run script
