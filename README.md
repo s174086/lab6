@@ -5,7 +5,6 @@ co, kiedy i jak wykonuje ten workflow (z ilu i jakich jobów i stepów jest zło
 kiedy: gdy zostanie wykonane push lub pull request w docs/**
 co: build up document and deploy
 jak:
-ile jobów: 1
 steps: 4
 środowisko: ubuntu-latest
 nazwy kroków:
